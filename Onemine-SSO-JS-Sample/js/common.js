@@ -1,5 +1,8 @@
 //---------------------- SERVER-SIDE JS file ---------------------------
-	
+// Format for this??
+
+// HASH FUNCTION IMPORT
+	import { md5 } from './md5.min.js';
 
 	function hex2a(value) {
 		var hex = value.toString();
