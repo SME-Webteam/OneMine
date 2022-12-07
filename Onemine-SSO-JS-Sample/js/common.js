@@ -1,6 +1,5 @@
 //---------------------- SERVER-SIDE JS file ---------------------------
-// Format for this??
-<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.17.0/js/md5.min.js"></script>
+	
 
 	function hex2a(value) {
 		var hex = value.toString();
