@@ -1,5 +1,5 @@
 // This is a API call on the server!  /api/OneMineUrl
-// Based on your server you may use node.js or Rhino TBD based on your environment
+// Based on your server you may use TBD based on your environment
 
 // ----------------------------------------------------------------------------------------
 
