@@ -17,7 +17,9 @@ public string OneMineUrl()
 {
 	// Step #1 - Include a reference to the server-side.js file
 	
-	// Step #2 - Retrieve configuration values
+	// Step #2 - Retrieve configuration values uat. is a test environment 
+	// after 12/13/2022 use https://onemine.org
+	
 	string baseUrl = 'https://uat.onemine.org';
 	string uniqueName = 'your-unique-name';
 	string partnerKey = 'xxxxx';
