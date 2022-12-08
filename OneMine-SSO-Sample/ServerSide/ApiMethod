@@ -1,0 +1,33 @@
+// https://www.javascriptinstitute.org/javascript-tutorial/server-side-javascript/
+
+// The following method will be invoked when the client-side javascript function
+// called launchOneMine() invokes its ajax call.  The url defined in that function
+// will need to match the route of this method.  
+//
+// Since this method will be specific to the web server, it should be written in the 
+// appropriate language.  Due to the wide variety of hosting environments, we'll simply 
+// write psuedo code here which outlines the steps needed to create the Url using the
+// composeUrl() javascript function defined in server-side.js.
+//
+// If you wish to use something other than javascript to create the url, you may do so, just
+// keep in mind you'll need to create your own custom code to do so.
+//
+// Route /api/OneMineUrl  -- 
+public string OneMineUrl() 
+{
+	// Step #1 - Include a reference to the server-side.js file
+	
+	// Step #2 - Retrieve configuration values
+	string baseUrl = 'https://uat.onemine.org';
+	string uniqueName = 'your-unique-name';
+	string partnerKey = 'xxxxx';
+
+	// Step #3 - Invoke the composeUrl() to generate the Url and store it locally
+	// You will need to define the exact code here to perform the actual invocation based 
+	// upon your web servers requirements.  We're using a ficticious 'Invoke' method to
+	// represent that process.
+	string url = Invoke(composeUrl(baseUrl, uniqueName, partnerKey));
+	
+	// Step #4 - Return the newly created Url
+	return url;
+}
