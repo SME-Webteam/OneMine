@@ -1,3 +1,4 @@
+// Hash Creation using Md5 localized in line 2
 import { md5 } from './md5.min.js';
 
 // Helper function
